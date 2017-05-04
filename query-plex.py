@@ -15,8 +15,13 @@ content = urllib2.urlopen(api_call).read()
 
 root = ET.fromstring(content)
 
+# for child in root:
+#     print child.tag, child.attrib
+
 for child in root:
-    print child.tag, child.attrib
+#print child.tag, child.attrib
+    plex_titles = child.get('title')
+    print plex_titles
 
 
 #root[1][1]
