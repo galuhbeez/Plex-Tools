@@ -3,8 +3,8 @@ import urllib2
 import xml.etree.ElementTree as ET
 import os
 
-plex_url = 'https://192-168-1-100.719f48b741ac4819b5447f3317d3cb23.plex.direct:32400'
-plex_token_qs = '?X-Plex-Token=A6zyxRgkb4hpcXENw4Pb'
+plex_url = 
+plex_token_qs = 
 
 #api_string = '/library/sections/'
 api_string = '/library/sections/5/all'
