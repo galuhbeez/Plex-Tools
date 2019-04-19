@@ -4,8 +4,8 @@ import os
 
 movie_input = input("Enter movie title: ")
 
-plex_url = "http://192.168.1.101:32400"
-plex_token_qs = "?X-Plex-Token=MyaUq8oxjNA7kjD3ZqYJ"
+plex_url = ""
+plex_token_qs = ""
 
 api_string = '/library/sections/'
 api_call = '%s%s%s' % (plex_url, api_string, plex_token_qs)
